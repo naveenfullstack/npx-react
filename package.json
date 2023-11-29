@@ -1,0 +1,35 @@
+{
+  "name": "naveen-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "nextjs-starter-templates": "./index.js"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/naveenfullstack/npx-react.git"
+  },
+  "keywords": ["cli","nextjs","react", "boilerplate","starter","template","@apollo/client","urql","react-query","graphql"],
+  "author": "wahid",
+  "license": "ISC",
+  "dependencies": {
+    "chalk-pipe": "^6.0.0",
+    "cli-box": "^6.0.10",
+    "inquirer": "^8.0.0",
+    "ora": "^6.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  }
+}
