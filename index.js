@@ -14,7 +14,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 let availableTemplates=[
     "nextjs-apollo-client",
-    "express-default"
+    "default"
 ]
 let templateName = "."
 const CHOICES = fs.readdirSync(`${__dirname}/templates`);
